@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srija Saithya - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.google.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 2);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(15, 163, 163);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(125, 213, 237);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: seagreen;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: "400";
+            height: "400";
+        }
+
+        .green {
+            color: rgb(66, 248, 72);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(121, 207, 247);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1.5px;
+            background-color: white;
+            margin: 0 175px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -38px;
+            left: -18px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Srija's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi !
+                <div>I am <span class="green">Srija Saithya</span></div>
+                <div>A passsionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="img/SrijaSaithya.gif" alt="gif">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I studied so far</span>
+            <h1>Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/dav.png" alt="dav">
+                    <div class="vertical-title">
+                        J.D.A.V High school (2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab, architecto iusto laudantium
+                        quam sequi totam soluta vero placeat ullam! Sapiente, explicabo? Ad consequatur culpa iste
+                        nesciunt consequuntur nam quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/sri chaitanya.png" alt="srichaitanya">
+                    <div class="vertical-title">
+                        Sri Chaitanya J.C (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab, architecto iusto laudantium
+                        quam sequi totam soluta vero placeat ullam! Sapiente, explicabo? Ad consequatur culpa iste
+                        nesciunt consequuntur nam quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/iare" alt="IARE">
+                    <div class="vertical-title">
+                        IARE College (2018-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab, architecto iusto laudantium
+                        quam sequi totam soluta vero placeat ullam! Sapiente, explicabo? Ad consequatur culpa iste
+                        nesciunt consequuntur nam quae.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
